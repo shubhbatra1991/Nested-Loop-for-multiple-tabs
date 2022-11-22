@@ -1,0 +1,369 @@
+body {
+  background-image: url('./images/light-bg/login-background@1x.svg');
+}
+* {box-sizing: border-box;}
+
+.App-logo {
+  height: 94px;
+  width: 375.06px;
+  pointer-events: none;
+  margin-top:139px;
+  margin-bottom: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+  .form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+.modal-body input {
+  margin: 10px;
+}
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .button-section {
+    margin: 3%;
+  }
+  .button {
+    background-color: #12A7B5;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 8px 0px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+
+  .button2{
+    background-color: #12A7B5;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 8px 0px;
+    margin-right: 168px;
+  }
+  .button:hover {
+    background-color: #12A7B5;
+  }
+
+/* For extra Button removing rows */
+.ExtraButton{
+  margin-left: 4px;
+  width: 14px;
+  height: 18px;
+  color: #777777;
+  background-color: transparent;
+  align-items: center;
+  border: none;
+}
+.SimpleBtn{
+  margin-left: -24px;
+  margin-top: 5px;
+  width: 14px;
+  height: 18px;
+  color: #777777;
+  background-color: transparent;
+  align-items: center;
+  border: none;
+}
+
+.ExtraButton:hover{
+  color: #777777;
+  background-color: transparent;
+}
+.SimpleBtn:hover{
+  color: #777777;
+  background-color: transparent;
+}
+
+  /* For background */
+  .bgpaper {
+    min-height: 585px;
+    width: 491px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,0.19), 0 12px 15px 0 rgba(0,0,0,0.24);
+    margin: auto;
+    margin-bottom: 159px;
+  }
+
+  /* For network tab */
+  .Network{
+    height: 36px;
+    width: 145px;
+    border-radius: 18px !important;
+    background-color: #12A7B5 !important;
+    margin: 30px 30px 0 30px;
+  }
+
+  /* for single component */
+  .paper-shadow-z-1 {
+    height: 54px;
+    width: 252px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-left: 10px solid#12A7B5;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.13);
+    padding: 12px;
+    justify-content: center;
+    text-align: center;
+  }
+
+#access-structures, input:focus-visible{
+    height: 21px;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 14.22px;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin: 0 auto;
+    border: none;
+}
+
+.paper-shadow-z-1 img {
+  width: 14px;
+  height: 18px;
+  margin-left: 170px;
+  margin-top: -47px;
+}
+/* for multiple component */
+.paper-shadow-z-2{
+  min-height: 197px;
+  min-width: 252px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border-left: 10px solid#12A7B5;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.13);
+  padding: 12px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+#cables {
+  height: 21px;
+  width: 185px;
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14.22px;
+  letter-spacing: 0;
+  line-height: 21px;
+  border: none;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+#copper {
+  height: 21px;
+  width: 160px;
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 14.22px;
+  letter-spacing: 0;
+  line-height: 21px;
+  border: none;
+}
+
+.rectangle {
+  box-sizing: border-box;
+  height: 31px;
+  width: 168px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  margin-top: 10px;
+}
+
+
+.rectangle-cables {
+  box-sizing: border-box;
+  height: 31px;
+  width: 193px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.rectangle-cables img{
+  margin-left: -20px;
+}
+
+.paper-shadow-z-2 li hr {
+  width: 25px;
+  align-self: center;
+}
+
+.paper-shadow-z-2 ul {
+  padding-left: 0 !important;
+}
+
+.line-sep{
+  border-left: 10px ridge;
+}
+
+.Multi-Button {
+  background-color: #12A7B5;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 2px 0px;
+    margin-left: 0;
+    margin-right: 190px;
+}
+.Multi-Button:hover{
+  background-color: #12A7B5;
+}
+.paper-shadow-z-2 ul li {
+    padding-top: 10px !important;
+    margin-left: 24px !important;
+    margin-bottom: -17px !important;
+}
+  
+.timeline hr {
+  padding: 7px;
+  margin-top: 27px;
+  align-self: center;
+  background-color: #FFFFFF;
+  outline: none;
+}
+
+.component {
+  display: flex;
+  /* margin-left: 14px;
+  margin-top: -54px; */
+}
+.component2 {
+  display: flex;
+}
+.timeline ul {
+padding-left: 100px;
+margin: 0;
+}
+
+.timeline ul li {
+list-style-type: none;
+position: relative;
+width: 1px;
+margin: 0;
+padding-top: 50px;
+background: #E8E8E8;
+}
+.map-all-build-details {
+height: 48px;
+width: 491px;
+color: #313131;
+font-family: "Exo 2";
+font-size: 32.44px;
+letter-spacing: 0;
+line-height: 48px;
+text-align: center;
+margin-bottom: 34px;
+}
+.head2{
+align-items: center;
+justify-content: center;
+display: flex;
+flex-flow: column;
+}
+
+.cables2 {
+margin: auto;
+position: relative;
+}
+
+.cables2 ul {
+padding-left: 100px;
+margin: 0;
+}
+.cables2 ul input {
+width:221px;
+height:31px;
+display: flex;
+position: relative;
+margin: auto;
+list-style-type: none;
+}
+
+.cables2 li input {
+height: 21px;
+width: 160px;
+color: #777777;
+font-family: "Open Sans";
+font-size: 14.22px;
+letter-spacing: 0;
+line-height: 21px;
+}
+.cables2 ul li{
+height: 31px;
+width: 168px;
+position: relative;
+display: flex;
+margin: auto;
+list-style: none;
+box-sizing: border-box;
+border: 1px solid #E8E8E8;
+border-radius: 5px;
+background-color: #FFFFFF;
+margin-top: -35px;
+margin-right: 21px;
+}
+.cables2 hr {
+  padding: 7px;
+  margin-left: 17px;
+  margin-top: 35px;
+}
+
+.and {
+position: absolute;
+right: 8px;
+top: 70px;
+height: 18px;
+width: 24px;
+opacity: 0.5;
+color: #9E9E9E;
+font-family: "Open Sans";
+font-size: 12.64px;
+letter-spacing: 0;
+line-height: 18px;
+}
+.or {
+height: 18px;
+width: 16px;
+opacity: 0.5;
+color: #9E9E9E;
+font-family: "Open Sans";
+font-size: 12.64px;
+letter-spacing: 0;
+line-height: 18px;
+position: absolute;
+right: 3px;
+top: 25px;
+}
