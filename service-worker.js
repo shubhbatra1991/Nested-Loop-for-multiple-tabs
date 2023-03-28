@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Nested-Loop-for-multiple-tabs/precache-manifest.1d300fd5b0cec58252bd144fac247f01.js"
+  "/Nested-Loop-for-multiple-tabs/precache-manifest.453c1c4d94c4c2102f6d5decf34e794e.js"
 );
 
 workbox.clientsClaim();
